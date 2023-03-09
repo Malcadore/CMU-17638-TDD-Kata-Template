@@ -1,7 +1,6 @@
 import unittest
 from bowling import Bowling
 
-
 class Testing(unittest.TestCase):
     def test_string(self):
         a = 'some'
@@ -19,7 +18,6 @@ class Testing(unittest.TestCase):
         BOWLER1_ID = GAME.set_bowler(BOWLER1_NAME)
         actual = GAME.get_bowler(BOWLER1_ID)
         self.assertEqual(BOWLER1_NAME, actual)
-       
 
 if __name__ == '__main__':
     unittest.main()
